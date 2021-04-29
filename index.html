@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css">
-   
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
@@ -9,8 +9,11 @@
     <title>Rubick</title>
   </head>
   <body style="background-color: #6610f2;">
-    <div class="sidebar">
-      <a class="active" href="#home"> Rubick</a>
+    <div class="sidebar" style="cursor: pointer;">
+      <a class="active" href="#home"> Rubick</a> <span>
+       
+    </span>
+    <hr style="margin-left: 20px;" />
       <a class="dropdown">Dashboard  </a>
         <i class="fa fa-caret-down"></i>
       <div class="dropdown-container">
@@ -22,20 +25,30 @@
       <a href="#about">About</a>
     </div>
     <div id = "box">
-      <div class="topnav">
-        <a class="active" href="#home"> <span>Application</span>
+         <span>Application</span>
           <span class="material-icons"><i class="bi bi-chevron-right"></i> Dashboard
-           </a>
-        <a href="#about"></a>
-        <a href="#contact"></a>
-        <div class="search-container">
-          <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search" >
-      <button type="submit"><i class="bi bi-search"></i></button>
-    </form>
-        </div>
+           <span>
+            <text class="inputContainer" style="margin-left: 400px;">
+              <i class="bi bi-search icon" style="margin-left: 180px;"> </i>
+              <input class="Field" type="search" placeholder="search..." />
+            </text>
+     <i class="bi bi-bell" style="margin-left: 30px;font-size: 20px;cursor:pointer"> </i>
+     <i class="bi bi-person-circle" style="margin-left: 30px;font-size: 20px;cursor: pointer;"></i>
+     </form>
+     <hr align="center" />
+      </span>
+      <div><strong style="font-size: large;">Users Layout </strong></div>
+      <div>
+        <button style="border-radius: 8px;margin-top: 28px;color:white;background-color: #6610f2;border:none;width: 130px;height:40px"> Add New User</button>
+        <button style="border-radius: 8px;background-color: white;height: 40px;width:40px;border: none;"> +</button>
+        <span style="margin-left: 180px;font-size: smaller;color: gray;">Showing 1 to 10 of 150 entries
+          <text class="inputContainer">
+            <i class="bi bi-search icon" style="margin-left: 340px;margin-top: 30px;"> </i>
+            <input class="Field" type="search" placeholder="search..." style="margin-left: 190px;width: 200px;border-radius: 4px;background-color: white;"/>
+          </text>
+        </span>
       </div>
-    </span>
+     
   </div>
   </body>
   
