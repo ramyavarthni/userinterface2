@@ -57,6 +57,8 @@
   .topnav a.active {
     color: white;
   }
+
+  
   #box {
     width: 1080px;
     border: 1px solid green;
@@ -83,6 +85,7 @@
       .inputContainer i {
         position:absolute;
         
+        
      }
      .inputContainer {
         width: 100%;
@@ -106,3 +109,39 @@
         border:none;
         background-color:#afc3d4;
      }
+
+
+
+
+     .flex-container {
+      display: flex;
+      background-color:white;
+      width: 450px;
+      margin-top: 30px;
+      border-radius: 12px;
+      height: 80px;
+    }
+    
+    .flex-container > div {
+      padding: 20px;
+    }
+
+
+
+
+
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      margin-top:650px;
+    }
+    
+    .pagination a.active {
+      background-color: White;
+      color:black;
+    }
+    
+    .pagination a:hover:not(.active) {background-color: #ddd;}
