@@ -1,7 +1,7 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 13%;
     background-color: #6610f2;
     position: fixed;
     height: 100vh;
@@ -15,7 +15,7 @@
     color: white;
     padding: 20px;
     text-decoration: none;
-    margin-left: 70px;
+    margin-left: 50px;
   }
   
   /* Active/current link */
@@ -60,7 +60,7 @@
 
   
   #box {
-    width: 85%;
+    width: 80%;
     border: none;
     padding: 50px;
     margin-left: 390px;
