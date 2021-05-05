@@ -1,7 +1,7 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 13%;
+    width: auto;
     background-color: #6610f2;
     position: fixed;
     height: 100vh;
@@ -60,11 +60,11 @@
 
   
   #box {
-    width: 80%;
+    width: auto;
     border: none;
     padding: 50px;
-    margin-left: 390px;
-    height: 100vh;
+    margin-left: 260px;
+    height: auto;
     border-radius: 5%;
     background-color: #dee5f0 ;
     margin-top: 20px;
@@ -128,10 +128,5 @@
     
 
 
-    @media only screen and (max-width: 350px) {
-      body {
-      width: 100%;
-      }
-    }
 
     
